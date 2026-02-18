@@ -1,177 +1,108 @@
 <!doctype html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Datenschutz – MyCarHub</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <title>Privacy Policy – MyCarHub</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <div class="topbar">
-    <div class="container">
-      <div class="topbar-inner">
-        <div class="brand">
-          <div class="brand-logo" aria-hidden="true">
-            <span style="font-weight:900;">M</span>
-          </div>
-          <div>
-            <div class="brand-name">MyCarHub</div>
-            <div class="small">Datenschutz</div>
-          </div>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <div class="brand-logo">
+          <img src="logo.png" alt="MyCarHub" style="height:28px;width:auto;" />
         </div>
-
-        <nav class="nav">
-          <a href="./index.html">Start</a>
-          <a href="./disclaimer.html">Disclaimer</a>
-        </nav>
-
-        <a class="cta secondary" href="./index.html">Zurück</a>
+        <div class="brand-name">MyCarHub</div>
       </div>
+
+      <nav class="nav">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="account-deletion.html">Account Deletion</a>
+      </nav>
+
+      <a class="cta secondary" href="account-deletion.html">Account Deletion</a>
     </div>
-  </div>
+  </header>
 
   <main class="page">
     <div class="container">
       <div class="page-card">
-        <h1 class="page-title">📄 Datenschutzerklärung – MyCarHub (aktualisiert)</h1>
-        <p class="page-sub">
-          Der Schutz deiner Daten ist uns wichtig. MyCarHub ist so konzipiert, dass möglichst keine personenbezogenen Daten verarbeitet oder übertragen werden.
-        </p>
+        <h1 class="page-title">Privacy Policy</h1>
+        <p class="page-sub"><strong>Last updated:</strong> 2026-02-18</p>
+
         <div class="prose">
-          <h2>1. Verantwortlicher</h2>
+          <h2>1. Who we are</h2>
           <p>
-Für die Datenverarbeitung im Zusammenhang mit der App und dieser Website (Landingpage) ist verantwortlich:
-<br />
-MyCarHub (Kontakt: <a class="link" href="mailto:dev@mycarhub.app">dev@mycarhub.app</a>)
+            This privacy policy applies to the MyCarHub mobile app ("MyCarHub", "the app").
+            If you have questions, contact us at
+            <a class="link" href="mailto:dev@mycarhub.app">dev@mycarhub.app</a>.
           </p>
 
-          <h2>2. Grundprinzip: lokale Speicherung</h2>
+          <h2>2. Data we process</h2>
           <p>
-MyCarHub ist so konzipiert, dass möglichst wenige personenbezogene Daten verarbeitet werden.
-Die von dir in der App erfassten Fahrzeug- und Nutzungsdaten werden grundsätzlich lokal auf deinem Gerät gespeichert.
-Es findet keine automatische Cloud-Synchronisation durch uns statt.
+            We currently use Supabase Authentication (Google sign-in) for account login.
+            This typically involves processing your email address and a user identifier to provide the login feature.
+          </p>
+          <p>
+            The app may process photos, videos, and text that you choose to provide (e.g., for OCR scanning of receipts/documents).
+            This processing is performed on your device (offline) unless you explicitly share/export content.
           </p>
 
-          <h2>3. Welche Daten werden verarbeitet?</h2>
+          <h2>3. Location</h2>
           <p>
-<strong>a) In der App (lokal auf deinem Gerät)</strong><br />
-Eingegebene Inhalte wie z. B. Fahrzeuge, Tank-/Service-/Wartungseinträge, Kilometerstände, Notizen, Einstellungen sowie optional gespeicherte Fotos/Belege.
-<br /><br />
-<strong>b) Technische Daten (nur wenn du Online-Funktionen nutzt)</strong><br />
-Bei der Nutzung bestimmter Funktionen können technische Daten verarbeitet werden (z. B. IP-Adresse, Zeitstempel, Anfrageparameter), die für die Bereitstellung der Funktion erforderlich sind.
-<br /><br />
-<strong>c) Diese Landingpage</strong><br />
-Beim Aufruf dieser Website werden durch den Hosting-Anbieter typischerweise Server-Logfiles verarbeitet (z. B. IP-Adresse, Datum/Uhrzeit, aufgerufene Seite, User-Agent), um den Betrieb und die Sicherheit der Website zu gewährleisten.
+            If you use the "nearby fuel stations" feature, the app uses your device location to request nearby station prices
+            from the fuel price API. Location is used only to provide this feature.
           </p>
 
-          <h2>4. Wofür werden Daten genutzt? (Zwecke je App-Funktion)</h2>
+          <h2>4. Sharing and uploads</h2>
           <p>
-<strong>Demo-Modus (ohne Anmeldung)</strong><br />
-Nutzung der App ohne Account. Es werden keine personenbezogenen Daten an uns übermittelt; alle Daten bleiben lokal.
-<br /><br />
-<strong>Datensicherung/Export (z. B. JSON)</strong><br />
-Wenn du Exporte/Backups erzeugst, werden diese lokal erstellt. Eine automatische Übertragung an uns findet nicht statt. Du entscheidest selbst, ob/wo du eine Datei speicherst oder teilst.
-<br /><br />
-<strong>Tankstellenpreise / Umkreissuche</strong><br />
-Wenn du diese Funktion nutzt, werden die für die Abfrage notwendigen Daten (z. B. Standortkoordinaten, Radius, Kraftstofftyp) an einen Backend-Proxy bzw. den jeweiligen Datenanbieter übertragen.
-Wir speichern diese Standortdaten nicht dauerhaft.
-<br /><br />
-<strong>Lokale Auswertungen (z. B. „beste Tankzeit“)</strong><br />
-Auswertungen und aggregierte Statistiken werden lokal auf dem Gerät berechnet/gespeichert.
+            The app does not automatically upload your photos/videos/documents to us.
+            If you choose to share or export content (e.g., to WhatsApp or a cloud service), this is initiated by you.
           </p>
 
-          <h2>5. Berechtigungen (Gerätezugriff)</h2>
+          <h2>5. Data retention</h2>
           <p>
-Je nach Nutzung kann die App folgende Berechtigungen anfordern:
-<br />
-<strong>Speicher/Dateien</strong> (lokale Datenspeicherung, Backups/Export)
-<br />
-<strong>Kamera/Fotos</strong> (optional für Beleg-/Dokumentfotos, Import/Scan)
-<br />
-<strong>Standort</strong> (optional, für Umkreissuche wie Tankstellenpreise; nur bei Bedarf)
-<br /><br />
-Die Berechtigungen werden nur für die jeweilige Funktion genutzt.
+            The app stores vehicles and related app data locally on your device (offline).
+            Authentication data is retained as long as your account exists.
           </p>
 
-          <h2>6. Drittanbieter / Empfänger</h2>
+          <h2>6. Account deletion</h2>
           <p>
-MyCarHub setzt – abhängig von deinen aktiv genutzten Funktionen – folgende Drittanbieter ein:
-<br /><br />
-<strong>a) Google (Anmeldung)</strong><br />
-Wenn du dich mit Google anmeldest, stellt Google (im Rahmen von OAuth) bestimmte Daten bereit (z. B. eine eindeutige Nutzer-ID und ggf. E-Mail-Adresse/Anzeigename). Die Datenverarbeitung erfolgt nach den Google-Datenschutzbestimmungen:
+            You can delete your account directly in the MyCarHub app via <strong>Profile → Delete account</strong>.
+            Deleting your account removes your authentication account (Supabase Auth / Google sign-in).
+          </p>
+          <p>
+            Vehicles and related app data are stored locally on your device (offline). Account deletion does not automatically
+            remove local data. To remove local data, uninstall the app or clear the app storage in your device settings.
+          </p>
+          <p>
+            For more details, see our <a class="link" href="account-deletion.html">Account Deletion</a> page.
           </p>
 
-          <a class="link" href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
-            <span aria-hidden="true">↗</span>
-            <span>https://policies.google.com/privacy</span>
-          </a>
-
+          <h2>7. Your rights</h2>
           <p>
-<strong>b) Supabase (Authentifizierung)</strong><br />
-Sofern du die Account-/Login-Funktionen verwendest, kann die Authentifizierung über Supabase erfolgen (z. B. Session-Verwaltung, OAuth-Weiterleitung). Dabei werden die zur Anmeldung erforderlichen Daten verarbeitet.
-          </p>
-
-          <p>
-<strong>c) RevenueCat (In-App-Käufe/Abos für „PRO“)</strong><br />
-Wenn du ein PRO-Abo nutzt, erfolgt die Kaufabwicklung und Aboverwaltung über RevenueCat in Verbindung mit dem jeweiligen App-Store (Google Play / Apple App Store). Dabei werden u. a. Kauf-/Abo-Informationen und eine technische App-User-ID verarbeitet, um den Status deines Abos festzustellen und Käufe wiederherzustellen.
-          </p>
-
-          <p>
-<strong>d) App Stores (Google Play / Apple App Store)</strong><br />
-Bei Installation, Updates und In-App-Käufen gelten zusätzlich die Datenschutzbestimmungen des jeweiligen Stores.
-          </p>
-
-          <h2>7. Analyse, Tracking & Werbung</h2>
-          <p>
-Wir setzen in der App und auf dieser Landingpage keine Werbe- oder Trackingdienste ein (z. B. kein Google Analytics, kein Firebase Analytics, keine Ads).
-          </p>
-
-          <h2>8. Deine Rechte</h2>
-          <p>
-Da die meisten Daten lokal auf deinem Gerät gespeichert werden, kannst du sie jederzeit direkt in der App einsehen und löschen.
-Eine Löschung ist z. B. über App-Funktionen, durch Zurücksetzen oder durch Deinstallation möglich.
-Für Anfragen zum Datenschutz kannst du dich jederzeit an uns wenden.
-          </p>
-
-          <h2>9. Kontakt</h2>
-          <p>
-Bei Fragen zum Datenschutz:
-<br />
-📧 <a class="link" href="mailto:dev@mycarhub.app">dev@mycarhub.app</a>
+            Depending on your location, you may have rights to access, correct, or delete your data.
+            To exercise your rights, contact us at
+            <a class="link" href="mailto:dev@mycarhub.app">dev@mycarhub.app</a>.
           </p>
         </div>
+      </div>
 
-        <div class="footer" style="border-top: 0; padding-bottom: 0;">
-          <div class="footer-inner">
-            <div class="small">Stand: <span id="year"></span></div>
-            <div class="footer-links">
-              <a href="./index.html">Start</a>
-              <a href="./disclaimer.html">Disclaimer</a>
-            </div>
+      <footer class="footer">
+        <div class="container footer-inner">
+          <div>
+            <div class="small">© MyCarHub</div>
+            <div class="small">Contact: dev@mycarhub.app</div>
+          </div>
+          <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="account-deletion.html">Account Deletion</a>
           </div>
         </div>
-
-      </div>
+      </footer>
     </div>
   </main>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-  <h2>Account deletion</h2>
-<p>
-  You can delete your account directly in the MyCarHub app via <strong>Profile → Delete account</strong>.
-  Deleting your account removes your authentication account (Supabase Auth / Google sign-in).
-</p>
-<p>
-  MyCarHub stores vehicles and related app data locally on your device (offline). Account deletion does not automatically
-  remove local data. To remove local data, uninstall the app or clear the app storage in your device settings.
-</p>
-<p>
-  For more details, see our <a href="account-deletion.html">Account Deletion</a> page or contact us at
-  <a href="mailto:dev@mycarhub.app">dev@mycarhub.app</a>.
-</p>
 </body>
 </html>
-
-
