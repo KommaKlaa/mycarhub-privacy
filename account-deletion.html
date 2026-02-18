@@ -4,36 +4,93 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Account Deletion – MyCarHub</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body style="max-width:900px;margin:40px auto;font-family:system-ui;line-height:1.5;padding:0 16px;">
-  <h1>Account Deletion – MyCarHub</h1>
 
-  <p>MyCarHub currently uses Supabase Authentication (Google sign-in) for accounts. We do not store your vehicles or other app content on our servers at this time.</p>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true">
+          <span style="font-weight:900;">M</span>
+        </div>
+        <div class="brand-name">MyCarHub</div>
+      </div>
 
-  <h2>How to delete your account</h2>
-  <p>
-    To request deletion of your MyCarHub account (authentication record), please email us:
-    <br><strong>Email:</strong>
-    <a href="mailto:dev@mycarhub.app?subject=MyCarHub%20Account%20Deletion">dev@mycarhub.app</a>
-  </p>
+      <nav class="nav">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="account-deletion.html">Account Deletion</a>
+      </nav>
 
-  <h2>What to include</h2>
-  <ul>
-    <li>The Google email address you used to sign in</li>
-  </ul>
+      <a class="cta secondary" href="privacy.html">Privacy</a>
+    </div>
+  </header>
 
-  <h2>What we delete</h2>
-  <ul>
-    <li>Your MyCarHub account (Supabase authentication user record)</li>
-  </ul>
+  <main class="page">
+    <div class="container">
+      <div class="page-card">
+        <h1 class="page-title">Account Deletion</h1>
+        <p class="page-sub">
+          This page explains how to delete your MyCarHub account and what happens to your data.
+        </p>
 
-  <h2>Local (offline) data on your device</h2>
-  <p>
-    Vehicles and related app data are stored locally on your device (offline). Account deletion does not automatically remove local data.
-    To delete local data, uninstall the app or clear the app storage in your device settings.
-  </p>
+        <div class="prose">
+          <h2>Delete your account in the app</h2>
+          <p>
+            You can delete your account directly inside the MyCarHub app:
+          </p>
+          <p>
+            1) Open MyCarHub<br />
+            2) Go to <strong>Profile</strong><br />
+            3) Tap <strong>Delete account</strong> and confirm
+          </p>
 
-  <h2>Processing time</h2>
-  <p>We process deletion requests within 30 days.</p>
+          <div class="notice">
+            <strong>Important:</strong> Account deletion removes your authentication account (Supabase Auth / Google sign-in).
+            It does not automatically remove offline data stored on your device.
+          </div>
+
+          <h2>What we delete</h2>
+          <p>
+            When you delete your account in the app, we delete:
+            • Your MyCarHub account (Supabase authentication user record).
+          </p>
+
+          <h2>Local (offline) data on your device</h2>
+          <p>
+            MyCarHub stores vehicles and related app data locally on your device (offline).
+            Deleting your account does not automatically remove local data.
+            To delete local data, uninstall the app or clear the app storage in your device settings.
+          </p>
+
+          <h2>Need help?</h2>
+          <p>
+            If you have issues deleting your account in the app, contact us:
+          </p>
+          <a class="link" href="mailto:dev@mycarhub.app?subject=MyCarHub%20Account%20Deletion%20Help">
+            dev@mycarhub.app
+          </a>
+
+          <h2>Processing time</h2>
+          <p>
+            Account deletion is initiated from within the app. If manual assistance is needed, requests are handled within 30 days.
+          </p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container footer-inner">
+          <div>
+            <div class="small">© MyCarHub</div>
+            <div class="small">Contact: dev@mycarhub.app</div>
+          </div>
+          <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="account-deletion.html">Account Deletion</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </main>
 </body>
 </html>
